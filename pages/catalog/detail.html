@@ -14,21 +14,20 @@
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="pages/blog/index.html" class="menu-link">BLOG</a>
+                    <a href="../blog/index.html" class="menu-link">BLOG</a>
                 </li>
                 <li>
-                    <a href="pages/catalog/index.html" class="menu-link">CATALOG</a>
+                    <a href="../index.html" class="menu-link">CATALOG</a>
                 </li>
                 <li>
-                    <a href="pages/contacts/index.html" class="menu-link">ABOUT US</a>
+                    <a href="../contacts/index.html" class="menu-link">ABOUT US</a>
                 </li>
             </ul>
         </nav>
         <div class="header-contact">
-            <a href="" class="header-search">
-                <img src="../../img/search.png" alt="search">
+            <a href="../contacts/index.html" class="header-search">
+                <img src="../../img/search.png" alt="search"> CONTACT US
             </a>
-            <a href="#" class="contact-us">CONTACT US</a>
         </div>
     </header>
 
@@ -43,25 +42,35 @@
             <li><a href="#">Toys</a></li>
         </ul>
         <form method="GET" action="/">
-            <legend>Cost</legend>
-            <input type="range" id="start" name="Cost" min="0" max="500" value="10">
-            <legend>Color</legend>
             <ul>
                 <li>
-                    <label><input name="Black" type="checkbox">Black</label>
+                    <strong>Cost</strong>
                 </li>
                 <li>
-                    <label><input name="Blue" type="checkbox">Blue</label>
-                </li>
-                <li>
-                    <label><input name="Green" type="checkbox">Green</label>
-                </li>
-                <li>
-                    <label><input name="White" type="checkbox">White</label>
+                    <input type="range" id="start" name="Cost" min="0" max="500" value="10">
                 </li>
             </ul>
-            <legend>Color</legend>
             <ul>
+                <li>
+                    <strong>Color</strong>
+                </li>
+                <li>
+                    <input name="Black" type="checkbox">Black
+                </li>
+                <li>
+                    <input name="Blue" type="checkbox">Blue
+                </li>
+                <li>
+                    <input name="Green" type="checkbox">Green
+                </li>
+                <li>
+                    <input name="White" type="checkbox">White
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <strong>Color</strong>
+                </li>
                 <li>
                     <label><input name="Black" type="radio">Free shipping</label>
                 </li>
@@ -69,8 +78,10 @@
                     <label><input name="Blue" type="radio">Fast shipping</label>
                 </li>
             </ul>
-            <legend>Amount</legend>
             <ul>
+                <li>
+                    <strong>Amount</strong>
+                </li>
                 <li>
                     <label><input type="submit" value="20-50"></label>
                 </li>
