@@ -42,56 +42,46 @@
             <li><a href="#">Toys</a></li>
         </ul>
         <form method="GET" action="/">
-            <ul>
-                <li>
-                    <strong>Cost</strong>
-                </li>
-                <li>
+            <fieldset>
+                <legend>Cost</legend>
+                <div class="filter">
+                    <label for="start">0</label>
                     <input type="range" id="start" name="Cost" min="0" max="500" value="10">
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <strong>Color</strong>
-                </li>
-                <li>
-                    <input name="Black" type="checkbox">Black
-                </li>
-                <li>
-                    <input name="Blue" type="checkbox">Blue
-                </li>
-                <li>
-                    <input name="Green" type="checkbox">Green
-                </li>
-                <li>
-                    <input name="White" type="checkbox">White
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <strong>Color</strong>
-                </li>
-                <li>
-                    <label><input name="Black" type="radio">Free shipping</label>
-                </li>
-                <li>
-                    <label><input name="Blue" type="radio">Fast shipping</label>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <strong>Amount</strong>
-                </li>
-                <li>
-                    <label><input type="submit" value="20-50"></label>
-                </li>
-                <li>
-                    <label><input type="submit" value="10-20"></label>
-                </li>
-                <li>
-                    <label><input type="submit" value="0-5"></label>
-                </li>
-            </ul>
+                    <label for="end">500</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Color</legend>
+                <div class="filter">
+                    <input id="black" type="checkbox">
+                    <label for="black">Black</label>
+                    <input id="blue" type="checkbox">
+                    <label for="blue"></label>
+                    <input name="green" type="checkbox">
+                    <label for="green">Green</label>
+                    <input name="white" type="checkbox">
+                    <label for="white">White</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Delivery</legend>
+                <div class="filter">
+                    <input id="free" type="radio">
+                    <label for="free">Free shipping</label>
+                    <input id="fast" type="radio">
+                    <label for="fast">Fast shipping</label>
+            </fieldset>
+            <fieldset>
+                <legend>Amount</legend>
+                <div class="filter">
+                    <input id="0-5" type="submit" value="20-50">
+                    <label for="0-5"></label>
+                    <input id="10-20" type="submit" value="20-50">
+                    <label for="10-20"></label>
+                    <input id="20-50" type="submit" value="20-50">
+                    <label for="20-50"></label>
+                </div>
+            </fieldset>
             <input type="submit" value="APPLY">
         </form>
         <div class="catalog-toys">
