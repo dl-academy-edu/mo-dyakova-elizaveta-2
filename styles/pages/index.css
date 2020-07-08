@@ -1,0 +1,328 @@
+@import url(../blocks/header.css);
+@import url(../blocks/footer.css);
+.link {
+    width: 161px;
+    height: 40px;
+    background: #000000;
+    padding: 9px 22px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.coll-discription h5 {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.coll-discription {
+    width: 100%;
+    padding: 16px 0;
+    background: #C29974;
+}
+
+.block-about {
+    margin-bottom: -5px;
+    margin-top: -90px;
+}
+
+.background {
+    height: 100%;
+    background: #EEE4DB;
+}
+
+.lr-wrapper {
+    padding: 0 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-products {
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    width: 167px;
+    position: absolute;
+    top: 44%;
+    left: 20%;
+}
+
+.link-products:hover {
+    text-decoration: underline;
+}
+
+.link:active {
+    background-color: #CFAF91;
+}
+
+.link:hover {
+    background-color: #C29974;
+}
+
+.arrow-prod {
+    background: rgba(112, 187, 220, 0.2);
+    border: 0;
+}
+
+.opis-slide {
+    width: 580px;
+    height: 44px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: auto;
+    flex: 0 1 auto;
+    margin-left: 22px;
+}
+
+.del-link {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    text-decoration: none;
+}
+
+.delivery:hover {
+    width: 326px;
+    background: rgba(112, 187, 220, 0.2);
+}
+
+.delivery:hover .del-link {
+    font-weight: bold;
+}
+
+.logo {
+    width: 216px;
+    height: 46px;
+}
+
+.block-about-us {
+    width: 50%;
+    height: 236px;
+    position: relative;
+}
+
+.block-about-us::before {
+    content: "";
+    width: calc(100% - 33px);
+    height: calc(100% + 23px);
+    top: 55px;
+    position: absolute;
+    background-color: #E1F0F7;
+}
+
+.main-block-contacts {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 543px;
+    height: 356px;
+    background: #E1F0F7;
+}
+
+.knop-slide {
+    display: inline-flex;
+    align-content: flex-start;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+}
+
+.del-right {
+    padding: 5px;
+    flex: 0 1 auto;
+}
+
+.pad {
+    padding-left: 60px;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -30px;
+}
+
+.about-us-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-about-us-wrapper {
+    position: absolute;
+    padding-left: 30px;
+    width: 460px;
+}
+
+.img-wrap {
+    position: relative;
+}
+
+.img-pict {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.left {
+    margin-top: 49px;
+    margin-left: 60px;
+}
+
+.left h1 {
+    width: 304px;
+}
+
+.left p {
+    font-style: italic;
+}
+
+.right-sl {
+    position: relative;
+    left: 25%;
+}
+
+.product-desc {
+    width: 56%;
+    position: relative;
+    left: 6%;
+}
+
+.form {
+    padding: 42px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-none {
+    margin-top: 0;
+    width: 100%;
+    background-color: rgba(125, 151, 218, 0.2);
+}
+
+legend {
+    font-weight: bold;
+}
+
+.catalog-toys {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-page {
+    display: flex;
+    justify-content: center;
+}
+
+.page-num {
+    margin: 0 35px;
+}
+
+.tovar p {
+    text-align: center;
+    color: #1E0606;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+.form-contact {
+    width: 46%;
+    background: #E5EAF8;
+    padding: 42px;
+}
+
+.contact-discrip {
+    width: 43%;
+}
+
+.form-contact label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1E0606;
+}
+
+.form-pole {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-contact textarea {
+    height: 160px;
+    width: 100%;
+}
+
+.phone-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-form input {
+    margin-right: 40px;
+    width: 100%;
+}
+
+.data {
+    font-family: Roboto;
+    color: #818181;
+    mix-blend-mode: normal;
+    font-size: 16px;
+}
+
+.tovar-ar {
+    width: 387px;
+    padding: 10px;
+}
+
+.tovar-ar a {
+    text-decoration: none;
+    color: #1E0606;
+}
+
+.tovar-ar a:hover {
+    text-decoration: underline;
+}
+
+.mr {
+    margin: -10px;
+}
+
+.tovar-link {
+    background: #E5EAF8;
+    opacity: 0.9;
+    width: 207px;
+    height: 207px;
+    position: absolute;
+}

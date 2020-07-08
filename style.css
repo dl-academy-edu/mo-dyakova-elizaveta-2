@@ -1,0 +1,85 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-size: 38px;
+    width: 454px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-top: 41px;
+    box-sizing: border-box;
+    padding-left: 110px;
+    padding-right: 110px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.slider {
+    padding-left: 0;
+    display: flex;
+    align-content: space-between;
+    height: auto;
+    margin-right: -23px;
+    margin-left: -8px;
+}
+
+.pict {
+    width: 280px;
+    height: 290px;
+    padding: 10px;
+    width: 25%;
+    box-sizing: border-box;
+    position: relative;
+    flex: 0 1 auto;
+}
+
+.hl-menu {
+    display: flex;
+    justify-content: end;
+    padding: 0;
+}
+
+.hl-menu-item {
+    margin-right: 10px;
+    font-style: italic;
+}
+
+.hl-menu-item a {
+    text-decoration: none;
+    color: #1E0606;
+}
+
+.hl-menu-item-str a {
+    opacity: 0.5;
+}
+
+input,
+button,
+fieldset {
+    border: none;
+}
+
+.page-num a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1E0606;
+    text-decoration: none;
+}

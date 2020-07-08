@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styles/pages/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Life Kids</title>
@@ -9,66 +11,70 @@
 
 <body>
     <!-- Шапка -->
-    <header class="head">
-        <a href="../../index.html"><img src="../../img/union.png" alt="logo"></a>
-        <nav>
+    <header class="head container">
+        <a href="../../index.html" class="header-logo"><img src="../../img/union.png" alt="logo"></a>
+        <nav class="header-nav">
             <ul class="menu">
-                <li>
+                <li class="mebu-item">
                     <a href="../blog/index.html" class="menu-link">BLOG</a>
                 </li>
-                <li>
+                <li class="mebu-item">
                     <a href="../catalog/index.html" class="menu-link">CATALOG</a>
                 </li>
-                <li>
+                <li class="mebu-item">
                     <a href="../contacts/index.html" class="menu-link">ABOUT US</a>
                 </li>
             </ul>
         </nav>
         <div class="header-contact">
-            <a href="" class="header-search">
-                <img src="../../img/search.png" alt="search"> CONTACT US
+            <a href="pages/contacts/index.html" class="header-search">
+                <img src="../../img/search.png" class="search" alt="search"> CONTACT US
             </a>
-
         </div>
     </header>
 
 
     <main>
-        <h1 class="main-header">CATEGORY PRODUCTS</h1>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><img src="../../img/arrow.png" alt=""></li>
-            <li><a href="#">Catalog</a></li>
-        </ul>
-        <div class="our-products">
-            <ul class="catalog">
-                <li class="pict">
-                    <a href="#">APPAREL KIDS</a>
-                    <img src="../../img/pict1.png" alt="">
-                </li>
-                <li class="pict">
-                    <a href="#">HOLIDAY SHOP</a>
-                    <img src="../../img/pict2.png" alt="">
-                </li>
-                <li class="pict">
-                    <a href="#">TOYS</a>
-                    <img src="../../img/pict3.png" alt="">
-                </li>
-                <li class="pict">
-                    <a href="#">ACCESSORIES</a>
-                    <img src="../../img/pict4.png" alt="">
-                </li>
-                <li class="pict">
-                    <a href="#">SALE</a>
-                    <img src="../../img/pict5.png" alt="">
-                </li>
-                <li class="pict">
-                    <a href="#">APPAREL ADULTS</a>
-                    <img src="../../img/pict6.png" alt="">
-                </li>
+        <section class="container">
+            <h1 class="main-header">CATEGORY PRODUCTS</h1>
+            <ul class="hl-menu">
+                <li class="hl-menu-item"><a href="../../index.html">Home</a></li>
+                <li class="hl-menu-item"><img src="../../img/arrow.png" alt=""></li>
+                <li class="hl-menu-item hl-menu-item-str"><a href="#">Catalog</a></li>
             </ul>
-        </div>
-        <section class="product-desc">
+            <div class="our-products">
+                <ul class="slider">
+                    <li class="pict">
+                        <a href="detail.html" class="link-products">APPAREL KIDS</a>
+
+                        <img src="../../img/pict1.png" alt="">
+                    </li>
+                    <li class="pict">
+                        <a href="detail.html" class="link-products">HOLIDAY SHOP</a>
+                        <img src="../../img/pict2.png" alt="">
+                    </li>
+                    <li class="pict">
+                        <a href="detail.html" class="link-products">TOYS</a>
+                        <img src="../../img/pict3.png" alt="">
+                    </li>
+                </ul>
+                <ul class="slider right-sl">
+                    <li class="pict">
+                        <a href="detail.html" class="link-products">ACCESSORIES</a>
+                        <img src="../../img/pict4.png" alt="">
+                    </li>
+                    <li class="pict">
+                        <a href="detail.html" class="link-products">SALE</a>
+                        <img src="../../img/pict5.png" alt="">
+                    </li>
+                    <li class="pict">
+                        <a href="detail.html" class="link-products">APPAREL ADULTS</a>
+                        <img src="../../img/pict6.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="product-desc container">
             <h2 class="main-header">PRODUCT DESCRIPTION</h2>
             <p>
                 Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.
@@ -83,68 +89,70 @@
     </main>
 
 
+
     <!-- подвал -->
     <footer class="footer">
-        <section class="footer-block">
-            <h4 class="h-nav-footer">Navigation</h4>
-            <ul>
-                <li class="nav-footer"><a href="#">About Us</a></li>
-                <li class="nav-footer"><a href="#">Blog</a></li>
-                <li class="nav-footer"><a href="#">Design Services</a></li>
-                <li class="nav-footer"><a href="#">Featured On</a></li>
-                <li class="nav-footer"><a href="#">2018 Holiday Catalog</a></li>
-                <li class="nav-footer"><a href="#">Shop By Designer</a></li>
-            </ul>
-        </section>
-        <section class="footer-block">
-            <h4 class="h-nav-footer">Customer Information</h4>
-            <ul>
-                <li class="nav-footer"><a href="#">About Us</a></li>
-                <li class="nav-footer"><a href="#">Blog</a></li>
-                <li class="nav-footer"><a href="#">Design Services</a></li>
-                <li class="nav-footer"><a href="#">Featured On</a></li>
-                <li class="nav-footer"><a href="#">2018 Holiday Catalog</a></li>
-                <li class="nav-footer"><a href="#">Shop By Designer</a></li>
-            </ul>
-        </section>
-        <section class="footer-block">
-            <h4 class="h-nav-footer">Connect</h4>
-            <input name="a" placeholder="Email">
-            <input type="submit" class="btnms" value="JOIN">
-            <ul class="footer-soc">
-                <li>
-                    <a href="#">
-                        <img src="../../img/facebook.png" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="../../img/twitter.png" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="../../img/pinterest.png" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="../../img/instagram.png" alt="">
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <div class="bottom-footer">
-            <div class="bottom-link">
-                <p>Company Rating </p>
-                <button><img src="../../img/star.png" alt=""></button>
-                <button><img src="../../img/star.png" alt=""></button>
-                <button><img src="../../img/star.png" alt=""></button>
-                <button><img src="../../img/star.png" alt=""></button>
-                <button><img src="../../img/star.png" alt=""></button>
+        <div class="container">
+            <div class="footer-block-wraper">
+                <section class="footer-block">
+                    <h4 class="h-nav-footer">Navigation</h4>
+                    <ul class="nav-footer-wrap">
+                        <li class="nav-footer"><a href="#">About Us</a></li>
+                        <li class="nav-footer"><a href="#">Blog</a></li>
+                        <li class="nav-footer"><a href="#">Design Services</a></li>
+                        <li class="nav-footer"><a href="#">Featured On</a></li>
+                        <li class="nav-footer"><a href="#">2018 Holiday Catalog</a></li>
+                        <li class="nav-footer"><a href="#">Shop By Designer</a></li>
+                    </ul>
+                    <div class="bottom-link">Company Rating
+                        <a href=""><img src="../../img/stars.png" alt=""></a>
+                        <a href=""><img src="../../img/stars.png" alt=""></a>
+                        <a href=""><img src="../../img/stars.png" alt=""></a>
+                        <a href=""><img src="../../img/stars.png" alt=""></a>
+                        <a href=""><img src="../../img/stars.png" alt=""></a>
+                    </div>
+                </section>
+                <section class="footer-block">
+                    <h4 class="h-nav-footer">Customer Information</h4>
+                    <ul class="nav-footer-wrap">
+                        <li class="nav-footer"><a href="#">About Us</a></li>
+                        <li class="nav-footer"><a href="#">Blog</a></li>
+                        <li class="nav-footer"><a href="#">Design Services</a></li>
+                        <li class="nav-footer"><a href="#">Featured On</a></li>
+                        <li class="nav-footer"><a href="#">2018 Holiday Catalog</a></li>
+                        <li class="nav-footer"><a href="#">Shop By Designer</a></li>
+                    </ul>
+                    <div class="bottom-link">Copyright © 2018 Dlk • Design Life Kids </div>
+                </section>
+                <section class="footer-block">
+                    <h4 class="h-nav-footer">Connect</h4>
+                    <input name="a" placeholder="Email" class="pole">
+                    <input type="submit" class="btnms" value="JOIN">
+                    <ul class="soc-footer">
+                        <li>
+                            <a href="#">
+                                <img src="../../img/facebook.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../img/twitter.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../img/pinterest.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../img/instagram.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="bottom-link">Web Design — Direct Line Development</div>
+                </section>
             </div>
-            <div class="bottom-link">Copyright © 2018 Dlk • Design Life Kids </div>
-            <div class="bottom-link">Web Design — Direct Line Development</div>
         </div>
     </footer>
 </body>
