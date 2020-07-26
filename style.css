@@ -4,22 +4,31 @@ body {
     margin: 0;
 }
 
-h1,
-h2 {
-    font-size: 38px;
+h1 {
+    font-size: 35px;
     width: 454px;
     font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 41px;
+    width: 469px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    padding: 0;
 }
 
 p {
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .container {
-    margin-top: 41px;
+    margin-top: 90px;
     box-sizing: border-box;
     padding-left: 110px;
     padding-right: 110px;
@@ -43,8 +52,8 @@ li {
 
 .pict {
     width: 280px;
-    height: 290px;
-    padding: 10px;
+    height: 283px;
+    padding: 12px 12px;
     width: 25%;
     box-sizing: border-box;
     position: relative;
@@ -55,10 +64,12 @@ li {
     display: flex;
     justify-content: end;
     padding: 0;
+    margin-top: -9px;
 }
 
 .hl-menu-item {
-    margin-right: 10px;
+    margin-right: 26px;
+    font-family: Crimson Text;
     font-style: italic;
 }
 
@@ -75,6 +86,10 @@ input,
 button,
 fieldset {
     border: none;
+}
+
+.link:disabled {
+    background: #C1C1C1;
 }
 
 .page-num a {

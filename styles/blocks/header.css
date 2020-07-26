@@ -12,13 +12,16 @@
 }
 
 .menu {
+    margin-left: 66px;
     display: flex;
 }
 
-.mebu-item {}
+.mebu-item {
+    margin-right: 17px;
+}
 
 .menu-link {
-    margin-left: 25px;
+    font-size: 15px;
     color: #1E0606;
     text-decoration: none;
 }
@@ -26,6 +29,7 @@
 .header-contact {}
 
 .header-search {
+    font-size: 15px;
     color: #1E0606;
     font-weight: bold;
     text-decoration: none;
@@ -44,5 +48,5 @@
 }
 
 .search {
-    margin-right: 10px;
+    margin-right: 18px;
 }
