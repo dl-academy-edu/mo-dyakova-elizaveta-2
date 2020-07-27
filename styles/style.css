@@ -6,7 +6,7 @@ body {
 
 .main-header {
     font-size: 40px;
-    width: 483px;
+    width: 523px;
 }
 h1 {
     font-size: 35px;
@@ -90,7 +90,7 @@ li {
 
 .hl-menu-item {
     margin-right: 26px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-style: italic;
 }
 
@@ -165,7 +165,7 @@ legend {
     width: 161px;
     height: 40px;
     background: #000000;
-    padding: 12px 24px;
+    padding: 12px 20px;
     font-weight: bold;
     font-size: 16px;
     text-align: center;

@@ -23,7 +23,7 @@
 
 .left p {
     font-size: 18px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-style: italic;
     margin-bottom: 36px;
     margin-top: -13px;
@@ -36,7 +36,7 @@
 }
 
 .right {
-    margin-left: -144px;
+    margin-left: -92px;
 }
 
 .block-about {
@@ -136,7 +136,7 @@
 }
 
 .knop-slide {
-    margin-top: 6px;
+    margin-top: 11px;
     display: inline-flex;
     align-content: flex-start;
 }
@@ -152,7 +152,7 @@
 
 .del-opis {
     margin-top: 32px;
-    margin-bottom: 69px;
+    margin-bottom: 41px;
 }
 
 .del-opis p {
@@ -194,6 +194,7 @@
 
 .about-us-wrapper {
     display: flex;
+    margin-top: 84px;
     justify-content: space-between;
 }
 
