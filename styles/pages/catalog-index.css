@@ -1,0 +1,21 @@
+.our-products {
+	margin-top: 50px;
+}
+
+.right-sl {
+	position: relative;
+	left: 17%;
+	margin-top: 20px;
+}
+
+.product-desc {
+	width: 56%;
+	position: relative;
+	left: 8%;
+	padding: 0;
+}
+
+.main-header-p {
+	width: 650px;
+	margin-bottom: auto;
+}

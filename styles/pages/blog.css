@@ -1,0 +1,52 @@
+@import url(../blocks/header.css);
+@import url(../blocks/footer.css);
+.tovar-ar img {
+	width: 393px;
+	margin-bottom: 17px;
+}
+
+.tovar-ar h3 {
+	font-size: 26px;
+	margin-top: 12px;
+	width: 340px;
+	margin-bottom: 0px;
+}
+
+.catalog-toys {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 67px;
+}
+
+.data {
+	font-family: Roboto;
+	color: #818181;
+	mix-blend-mode: normal;
+	font-size: 16px;
+}
+
+.tovar-ar {
+	width: 387px;
+	padding: 10px;
+}
+
+.tovar-ar a {
+	text-decoration: none;
+	color: #1E0606;
+}
+
+.tovar-ar a:hover {
+	text-decoration: underline;
+}
+
+.mr {
+	margin: -10px;
+}
+
+.tovar-link {
+	background: #E5EAF8;
+	opacity: 0.9;
+	width: 207px;
+	height: 207px;
+	position: absolute;
+}

@@ -5,8 +5,6 @@
     margin-top: 33px;
 }
 
-.header-logo {}
-
 .header-nav {
     margin-right: auto;
 }
@@ -25,8 +23,6 @@
     color: #1E0606;
     text-decoration: none;
 }
-
-.header-contact {}
 
 .header-search {
     font-size: 15px;

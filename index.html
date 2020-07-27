@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="styles/pages/index.css">
-      <link rel="stylesheet" type="text/css" href="styles/modal.css">
-      <script src="js/script.js"></script>
+      <link rel="stylesheet" type="text/css" href="styles/common.css">
+      <link rel="stylesheet" href="styles/min-pages/main.css">
+      <link rel="stylesheet" type="text/css" href="styles/min-blocks/modal.css">
+      <script src="js/min-script.js"></script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Design Life Kids</title>
    </head>
    <body>
       <!-- Шапка -->
-      <header class="head container">
+      <header class="container head">
          <a href="index.html" class="header-logo"><img src="img/union.png" alt="logo"></a>
          <nav class="header-nav">
             <ul class="menu">
@@ -23,9 +23,6 @@
                </li>
                <li class="mebu-item">
                   <a href="pages/contacts/index.html" class="menu-link">ABOUT US</a>
-               </li>
-               <li class="mebu-item">
-                  <a href="#" class="js-open-modal menu-link" data-modal="1">Окно</a>
                </li>
             </ul>
          </nav>
@@ -42,7 +39,7 @@
                <div class="left">
                   <h1>THE OOH NOO COLLECTION</h1>
                   <p>Designed in Slovenia</p>
-                  <a href="#" class="link">EXPLORE NOW</a>
+                  <a href="#" class="link js-open-modal" data-modal="1">EXPLORE NOW</a>
                </div>
                <div class="right">
                   <img src="img/block-about.png" alt="" class="block-about">
@@ -216,7 +213,7 @@
       </footer>
       <div class="modal form-contact" data-modal="1">
          <button class="modal__cross js-modal-close" >
-            <svg xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
             </svg>
          </button>
