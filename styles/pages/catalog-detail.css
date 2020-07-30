@@ -1,0 +1,156 @@
+@import url(../blocks/header.css);
+@import url(../blocks/footer.css);
+.container-none {
+    margin-top: 54px;
+    width: 100%;
+    background-color: rgba(125, 151, 218, 0.2);
+}
+
+.form {
+    padding-top: 47px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.field-filter {
+    padding: 0;
+}
+
+.filter {
+    margin: 16px 0;
+}
+
+.link-form {
+    margin-right: 88px;
+    width: 99px;
+    margin-top: 35px;
+}
+
+.custom-radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+
+/* для элемента label связанного с .custom-radio */
+
+.custom-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-radio+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #c29974;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 87% 83%;
+}
+
+
+/* стили при наведении курсора на радио */
+
+.custom-radio:not(:disabled):not(:checked)+label:hover::before {
+    cursor: pointer;
+}
+
+
+/* стили для активной радиокнопки (при нажатии на неё) */
+
+.custom-radio:not(:disabled):active+label::before {
+    background-color: #fff;
+    border-color: #c29974;
+}
+
+
+/* стили для радиокнопки, находящейся в состоянии checked */
+
+.custom-radio:checked+label::before {
+    border-color: #c29974;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23c29974'/%3e%3c/svg%3e");
+}
+
+.order-by {
+    width: 80px;
+    height: 35px;
+    background: #FFFFFF;
+}
+
+.order-by:active {
+    background: #F3D0DB;
+}
+
+.custom-pere {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-pere+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-pere+label::before {
+    padding-top: 13px;
+    content: '0-5';
+    text-align: center;
+    display: inline-block;
+    width: 5em;
+    height: 2em;
+    background-color: #fff;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-right: -0.1em;
+}
+
+.popis {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 37px;
+    text-align: center;
+    color: #1E0606;
+}
+
+.price {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+/*стили при наведении курсора на радио */
+
+.custom-pere:not(:disabled):not(:checked)+label:hover::before {
+    cursor: pointer;
+}
+
+.catalog-toys {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.custom-pere:not(:disabled):active+label::before {
+    background-color: #F3D0DB;
+}
+
+.custom-pere:not(:disabled):hover+label::before {
+    background-color: #EDDEEB;
+}
+
+.custom-pere:checked+label::before {
+    background-color: #F3D0DB;
+}

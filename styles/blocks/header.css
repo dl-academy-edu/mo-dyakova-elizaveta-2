@@ -1,0 +1,48 @@
+.head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 33px;
+    margin-top: 33px;
+}
+
+.header-nav {
+    margin-right: auto;
+}
+
+.menu {
+    margin-left: 66px;
+    display: flex;
+}
+
+.mebu-item {
+    margin-right: 17px;
+}
+
+.menu-link {
+    font-size: 15px;
+    color: #1E0606;
+    text-decoration: none;
+}
+
+.header-search {
+    font-size: 15px;
+    color: #1E0606;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-search:hover,
+.header-logo:hover,
+.menu-link:hover {
+    opacity: 0.5;
+}
+
+.header-search:active,
+.header-logo:active,
+.menu-link:active {
+    opacity: 0.8;
+}
+
+.search {
+    margin-right: 18px;
+}

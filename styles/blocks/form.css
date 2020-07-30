@@ -1,0 +1,41 @@
+.form-contact {
+    width: 50.7%;
+    background: #E5EAF8;
+    padding: 42px;
+}
+
+.form-contact label {
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0 5px;
+    margin-top: 19px;
+    line-height: 16px;
+    color: #1E0606;
+}
+
+.form-pole {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    box-sizing: border-box;
+    height: 54px;
+    width: 100%;
+    font-size: 18px;
+    padding: 18px;
+}
+
+.form-contact textarea {
+    height: 149px;
+    margin-top: 6px;
+    width: 100%;
+}
+
+.phone-form {
+    display: flex;
+    margin: 0 -5px;
+    margin-bottom: 20px;
+}
+
+.phone-form input {
+    max-width: 100%;
+}
