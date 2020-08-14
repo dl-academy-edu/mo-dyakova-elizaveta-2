@@ -50,7 +50,7 @@
                      <label>E-mail<input class="form-pole" type="email" required></label>
                   </div>
                   <label>Message<textarea name="comment" cols="40" rows="3"></textarea></label>
-                  <input class="custom-check" name="galaxy-s10" type="checkbox" checked><label>By clicking on the button, 
+                  <input class="custom-check" id="sogl" name="galaxy-s10" type="checkbox" checked><label for="sogl" style="width: 572px;" class="custom-lab">By clicking on the button, 
                   you consent to the processing of your personal data
                   </label>
                   <button style="margin-top: 17px;width: 109px;" class="link">Submit</button>
@@ -101,22 +101,22 @@
                   <ul class="soc-footer">
                      <li>
                         <a href="#">
-                        <img src="../../img/facebook.png" alt="">
+                        <img class="icon" src="../../img/facebook.png" alt="facebook">
                         </a>
                      </li>
                      <li>
                         <a href="#">
-                        <img src="../../img/twitter.png" alt="">
+                        <img class="icon" src="../../img/twitter.png" alt="twitter">
                         </a>
                      </li>
                      <li>
                         <a href="#">
-                        <img src="../../img/pinterest.png" alt="">
+                        <img class="icon" src="../../img/pinterest.png" alt="pinterest">
                         </a>
                      </li>
                      <li>
                         <a href="#">
-                        <img src="../../img/instagram.png" alt="">
+                        <img class="icon" src="../../img/instagram.png" alt="instagram">
                         </a>
                      </li>
                   </ul>
@@ -124,18 +124,25 @@
             </div>
             <hr class="line-footer line-footer-bottom">
             <ul class="rat-wrap">
-               <li class="rat bottom-link" style="margin-left: 0;">
+               <li class="rat bottom-link star" style="margin-left: 0;">
                   Company Rating
-                  <a href="" class="star" style="margin-left: 31px;"><img src="../../img/stars.png" alt=""></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt=""></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt=""></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt=""></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt=""></a>
+               <div class="rating-area">
+                  <input type="radio" id="star-5" name="rating" value="5">
+                  <label for="star-5" title="Оценка «5»"></label> 
+                  <input type="radio" id="star-4" name="rating" value="4">
+                  <label for="star-4" title="Оценка «4»"></label>    
+                  <input type="radio" id="star-3" name="rating" value="3">
+                  <label for="star-3" title="Оценка «3»"></label>  
+                  <input type="radio" id="star-2" name="rating" value="2">
+                  <label for="star-2" title="Оценка «2»"></label>    
+                  <input type="radio" id="star-1" name="rating" value="1">
+                  <label for="star-1" title="Оценка «1»"></label>
+               </div>
                </li>
-               <li class="rat bottom-link">
+               <li class="rat">
                   Copyright © 2018 Dlk • Design Life Kids
                </li>
-               <li class="rat bottom-link">
+               <li class="rat bottom-link web-rat">
                   Web Design — Direct Line Development
                </li>
             </ul>

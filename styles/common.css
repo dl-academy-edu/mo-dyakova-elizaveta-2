@@ -1,3 +1,3 @@
-@import url(min-style.css);
+@import url(style.css);
 @import url(min-blocks/header.css);
-@import url(min-blocks/footer.css);
+@import url(blocks/footer.css);

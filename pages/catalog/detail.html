@@ -46,56 +46,56 @@
          <div class="container container-none">
             <form class="form" method="GET" action="/">
                <fieldset class="field-filter">
-                  <legend>Cost</legend>
+                  <legend style="margin-bottom: -2px;">Cost</legend>
                   <div class="filter">
-                     <label for="start">0</label>
-                     <input type="range" id="start" name="Cost" min="0" max="500" value="10">
-                     <label for="start">500</label>
+                     <label class="rang-min rang" for="start">0</label>
+                     <input type="range" min="0" max="100" value="20" name="range" step="1"/>
+                     <label class="rang-max rang" for="end">500</label>
                   </div>
                </fieldset>
-               <fieldset class="field-filter" style="padding-left: 62px;">
+               <fieldset class="field-filter" style="padding-left: 38px;">
                   <legend>Color</legend>
                   <div class="filter-item">
                      <div class="filter">
                         <input class="custom-check" id="black" type="checkbox">
-                        <label for="black">Black</label>
+                        <label class="custom-lab" for="black">Black</label>
                      </div>
                      <div class="filter">
                         <input class="custom-check" id="blue" type="checkbox">
-                        <label for="blue">Blue</label>
+                        <label class="custom-lab" for="blue">Blue</label>
                      </div>
                      <div class="filter">
                         <input class="custom-check" id="green" type="checkbox">
-                        <label for="green">Green</label>
+                        <label class="custom-lab" for="green">Green</label>
                      </div>
                      <div class="filter">
                         <input class="custom-check" id="white" type="checkbox">
-                        <label for="white">White</label>
+                        <label class="custom-lab" for="white">White</label>
                      </div>
                   </div>
                </fieldset>
-               <fieldset class="field-filter" style="padding-left: 38px;">
+               <fieldset class="field-filter" style="padding-left: 63px;">
                   <legend>Delivery</legend>
                   <div>
                      <div class="filter">
-                        <input class="custom-radio" id="free" type="radio">
-                        <label for="free">Free shipping</label>
+                        <input class="custom-radio" id="free" name="rd" type="radio">
+                        <label class="custom-lab" for="free">Free shipping</label>
                      </div>
                      <div class="filter">
-                        <input class="custom-radio" id="fast" type="radio">
-                        <label for="fast">Fast shipping</label>
+                        <input class="custom-radio" id="fast" type="radio" name="rd">
+                        <label class="custom-lab" for="fast">Fast shipping</label>
                      </div>
                   </div>
                </fieldset>
-               <fieldset class="field-filter" style="padding-left: 38px;">
+               <fieldset class="field-filter" style="padding-left: 11px;">
                   <legend>Amount</legend>
                   <div class="filter">
                      <input type="radio" name="pere" class="custom-pere" id="0-5">
-                     <label class="lab" for="0-5"></label>
+                     <label class="lab" for="0-5" style="padding: 0 25px;">0-5</label>
                      <input type="radio" name="pere" class="custom-pere" id="10-20">
-                     <label class="lab" for="10-20"></label>
+                     <label class="lab" for="10-20">10-20</label>
                      <input type="radio" name="pere" class="custom-pere" id="20-50">
-                     <label class="lab" for="20-50"></label>                  
+                     <label class="lab" for="20-50">20-50</label>                  
                   </div>
                </fieldset>
                <input class="link link-form" type="submit" value="APPLY">
@@ -104,16 +104,25 @@
          <div class="catalog-toys container">
             <div class="tovar">
                <img src="../../img/img1.png" alt="tovar">
+               <p class="tv">
+                  <a href="">LEARN MORE</a>
+               </p>
                <p class="popis">SHARKY BEAN BAG CHAIR COVER </p>
                <p class="price">$60.00 USD</p>
             </div>
             <div class="tovar">
                <img src="../../img/img2.png" alt="tovar">
+               <p class="tv">
+                  <a href="">LEARN MORE</a>
+               </p>
                <p class="popis">BRASS DECO FRAMES</p>
                <p class="price">$66.00 USD</p>
             </div>
             <div class="tovar">
                <img src="../../img/img3.png" alt="tovar">
+               <p class="tv">
+                  <a href="">LEARN MORE</a>
+               </p>
                <p class="popis">CIBO FULL APRON </p>
                <p class="price">$60.00 USD</p>
             </div>
@@ -121,16 +130,25 @@
          <div class="catalog-toys container" style="margin-top: 50px;">
             <div class="tovar">
                <img src="../../img/img4.png" alt="tovar">
+               <p class="tv">
+                  <a href="">LEARN MORE</a>
+               </p>
                <p class="popis">GATCHA GATCHA GUMBALL MACHINE</p>
                <p class="price">$56.00 USD</p>
             </div>
             <div class="tovar">
                <img src="../../img/img5.png" alt="tovar">
+               <p class="tv">
+                  <a href="">LEARN MORE</a>
+               </p>
                <p class="popis">CHRISTMAS ADVENT SCENTED CANDLE</p>
                <p class="price">$29.00 USD</p>
             </div>
             <div class="tovar">
                <img src="../../img/img6.png" alt="tovar">
+               <p class="tv">
+                  <a href="">LEARN MORE</a>
+               </p>
                <p class="popis">TANGLE SPINNING TEA LIGHT</p>
                <p class="price">$56.00 USD</p>
             </div>
@@ -139,7 +157,7 @@
             <li class="page-num">
                <a href="#" class="page"><img src="../../img/arrow-link-left.png" alt="back"></a>
             </li>
-            <li class="page-num"><a href="#" class="page">1</a></li>
+            <li class="page-num"><a href="#" class="page page-check">1</a></li>
             <li class="page-num"><a href="#" class="page">2</a></li>
             <li class="page-num"><a href="#" class="page">3</a></li>
             <li class="page-num"><a href="#" class="page">4</a></li>
@@ -149,7 +167,7 @@
          </ul>
       </main>
       <!-- подвал -->
-      <footer class="footer" style="margin-top: 54px;">
+      <footer class="footer" style="margin-top: 60px;">
          <div class="container foo">
             <div class="footer-block-wraper">
                <section class="footer-block">
@@ -184,22 +202,22 @@
                   <ul class="soc-footer">
                      <li>
                         <a href="#">
-                        <img src="../../img/facebook.png" alt="">
+                        <img class="icon" src="../../img/facebook.png" alt="facebook">
                         </a>
                      </li>
                      <li>
                         <a href="#">
-                        <img src="../../img/twitter.png" alt="">
+                        <img class="icon" src="../../img/twitter.png" alt="twitter">
                         </a>
                      </li>
                      <li>
                         <a href="#">
-                        <img src="../../img/pinterest.png" alt="">
+                        <img class="icon" src="../../img/pinterest.png" alt="pinterest">
                         </a>
                      </li>
                      <li>
                         <a href="#">
-                        <img src="../../img/instagram.png" alt="">
+                        <img class="icon" src="../../img/instagram.png" alt="instagram">
                         </a>
                      </li>
                   </ul>
@@ -207,18 +225,25 @@
             </div>
             <hr class="line-footer line-footer-bottom">
             <ul class="rat-wrap">
-               <li class="rat bottom-link" style="margin-left: 0;">
+               <li class="rat bottom-link star" style="margin-left: 0;">
                   Company Rating
-                  <a href="" class="star" style="margin-left: 31px;"><img src="../../img/stars.png" alt=""></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt=""></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt=""></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt=""></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt=""></a>
+               <div class="rating-area">
+                  <input type="radio" id="star-5" name="rating" value="5">
+                  <label for="star-5" title="Оценка «5»"></label> 
+                  <input type="radio" id="star-4" name="rating" value="4">
+                  <label for="star-4" title="Оценка «4»"></label>    
+                  <input type="radio" id="star-3" name="rating" value="3">
+                  <label for="star-3" title="Оценка «3»"></label>  
+                  <input type="radio" id="star-2" name="rating" value="2">
+                  <label for="star-2" title="Оценка «2»"></label>    
+                  <input type="radio" id="star-1" name="rating" value="1">
+                  <label for="star-1" title="Оценка «1»"></label>
+               </div>
                </li>
-               <li class="rat bottom-link">
+               <li class="rat">
                   Copyright © 2018 Dlk • Design Life Kids
                </li>
-               <li class="rat bottom-link">
+               <li class="rat bottom-link web-rat">
                   Web Design — Direct Line Development
                </li>
             </ul>

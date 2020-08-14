@@ -13,6 +13,23 @@
     color: #1E0606;
 }
 
+.form-pole:hover,
+.form-contact textarea:hover{
+	border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.form-pole:active,
+.form-contact textarea:active{
+	border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.form-pole:focus,
+.form-contact textarea:focus
+{
+	outline:none;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
 .form-pole {
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -25,6 +42,7 @@
 }
 
 .form-contact textarea {
+	border: 1px solid rgba(0, 0, 0, 0.2);
     height: 149px;
     margin-top: 6px;
     width: 100%;

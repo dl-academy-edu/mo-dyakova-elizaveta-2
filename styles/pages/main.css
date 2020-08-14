@@ -12,8 +12,8 @@
 }
 
 .left {
-    margin-top: 66px;
-    margin-left: 72px;
+    margin-top: 63px;
+    margin-left: 49px;
 }
 
 .left h1 {
@@ -37,12 +37,16 @@
 
 .right {
     margin-left: -92px;
+    height: 476px;
+    position: relative;
+    margin-top: -92px;
 }
 
 .block-about {
-    margin-bottom: -6px;
-    margin-top: -90px;
-    width: 656px;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    object-position: center;
 }
 
 .background {
@@ -51,7 +55,7 @@
 }
 
 .lr-wrapper {
-    padding: 0 65px;
+    padding-right: 85px;
     display: flex;
     justify-content: space-between;
 }
@@ -113,7 +117,7 @@
     content: "";
     width: calc(100% - 48px);
     height: calc(100% + 7px);
-    top: 48px;
+    top: 53px;
     position: absolute;
     background-color: #E1F0F7;
 }
@@ -122,7 +126,7 @@
     content: "";
     width: calc(100% - 38px);
     height: calc(100% + -20px);
-    top: 47px;
+    top: 53px;
     position: absolute;
     background-color: #E1F0F7;
 }
@@ -136,7 +140,7 @@
 }
 
 .knop-slide {
-    margin-top: 11px;
+    margin-top: 17px;
     display: inline-flex;
     align-content: flex-start;
 }
@@ -152,7 +156,7 @@
 
 .del-opis {
     margin-top: 32px;
-    margin-bottom: 41px;
+    margin-bottom: 45px;
 }
 
 .del-opis p {
@@ -165,6 +169,7 @@
 
 .pad ul {
     margin-left: -60px;
+    margin-top: 10px;
 }
 
 .delivery {
@@ -230,4 +235,46 @@
     width: 100%;
     height: 100%;
     object-position: center;
+}
+
+.page {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 60px;
+    margin-top: 17px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05);
+}
+
+.oncl{
+    width: 31px;
+    height: 3px;
+    background: #D6CAC2;
+}
+
+.oncl:hover{
+    background: #725F5B;
+    cursor: pointer;
+}
+
+.ul-fl {
+    padding: 0px;
+    margin: 5.5px;
+    height: 4px;
+}
+
+.ul-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+}
+
+.main-slide {
+    margin-left: 27px;
+    margin-top: 3px;
+}
+
+.loge{
+    margin-left: -22px;
+    margin-top: 11px;
 }
