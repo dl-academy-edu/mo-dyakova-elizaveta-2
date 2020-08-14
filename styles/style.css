@@ -160,6 +160,17 @@ legend {
     background-image: url("../img/vec.svg");
 }
 
+.custom-check:disabled+label::before,
+.custom-radio:disabled+label::before{
+    opacity: 0.5;
+}
+
+.custom-check:disabled,
+.custom-radio:disabled .custom-lab{
+    opacity: 0.5;
+}
+
+
 .custom-check:not(:disabled):not(:checked)+label:hover::before {
     cursor: pointer;
 }
