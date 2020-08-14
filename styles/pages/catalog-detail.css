@@ -1,7 +1,5 @@
-@import url(../blocks/header.css);
-@import url(../blocks/footer.css);
 .container-none {
-    margin-top: 54px;
+    margin-top: 50px;
     width: 100%;
     background-color: rgba(125, 151, 218, 0.2);
 }
@@ -25,6 +23,7 @@
     margin-right: 88px;
     width: 99px;
     margin-top: 35px;
+    height: 43px;
 }
 
 .custom-radio {
@@ -57,6 +56,41 @@
     background-size: 87% 83%;
 }
 
+.tovar{
+    position: relative;
+}
+
+.tv a{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 29px;
+text-align: center;
+text-transform: uppercase;
+
+/* Black */
+
+color: #1E0606;
+text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.tovar:hover .tv{
+    opacity: 0.9;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+.tv{
+    padding: 86px 11px;
+    background: #E5EAF8;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0s linear 0.5s;
+    position: absolute;
+    top: 18%;
+    left: 22%;
+}
 
 /* стили при наведении курсора на радио */
 
@@ -99,20 +133,9 @@
 .custom-pere+label {
     display: inline-flex;
     align-items: center;
-    user-select: none;
-}
-
-.custom-pere+label::before {
-    padding-top: 13px;
-    content: '0-5';
-    text-align: center;
-    display: inline-block;
-    width: 5em;
-    height: 2em;
+    height: 35px;
     background-color: #fff;
-    flex-shrink: 0;
-    flex-grow: 0;
-    margin-right: -0.1em;
+    padding: 0px 17.5px;
 }
 
 .popis {
@@ -133,7 +156,7 @@
 
 /*стили при наведении курсора на радио */
 
-.custom-pere:not(:disabled):not(:checked)+label:hover::before {
+.custom-pere:not(:disabled):not(:checked)+label:hover {
     cursor: pointer;
 }
 
@@ -143,14 +166,62 @@
     margin-top: 67px;
 }
 
-.custom-pere:not(:disabled):active+label::before {
+.custom-pere:not(:disabled):active+label {
     background-color: #F3D0DB;
 }
 
-.custom-pere:not(:disabled):hover+label::before {
+.custom-pere:not(:disabled):hover+label {
     background-color: #EDDEEB;
 }
 
-.custom-pere:checked+label::before {
+.custom-pere:checked+label {
     background-color: #F3D0DB;
 }
+
+
+input[type=range]  {
+    width: 196px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    height: 5px;
+    cursor: pointer;
+    background-color: #C29974;
+}
+input[type=range]::-webkit-slider-thumb {
+    background: #ecf0f1;
+    border: 8px solid #C29974;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    -webkit-appearance: none;
+    margin-top: -10px;
+}
+
+.custom-lab:focus{
+    text-decoration: underline;
+}
+
+.rang{
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    position: absolute;
+    top: 408px;
+}
+
+.rang-min{
+    left: 289px;
+}
+
+.rang-max {
+    left: 475px;
+}
+
+
+
+

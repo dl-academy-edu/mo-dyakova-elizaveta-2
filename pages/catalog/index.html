@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../../styles/common.css">
       <link rel="stylesheet" href="../../styles/min-pages/catalog-index.css">
       <meta charset="UTF-8">
@@ -43,11 +44,11 @@
             <div class="our-products">
                <ul class="slider">
                   <li class="pict">
-                     <a href="detail.html" class="link-products">APPAREL KIDS</a>
+                     <a href="detail.html" class="link-products prod-two">APPAREL KIDS</a>
                      <img src="../../img/pict1.png" alt="">
                   </li>
                   <li class="pict">
-                     <a href="detail.html" class="link-products">HOLIDAY SHOP</a>
+                     <a href="detail.html" class="link-products prod-two">HOLIDAY SHOP</a>
                      <img src="../../img/pict2.png" alt="">
                   </li>
                   <li class="pict">
@@ -65,7 +66,7 @@
                      <img src="../../img/pict5.png" alt="">
                   </li>
                   <li class="pict">
-                     <a href="detail.html" class="link-products">APPAREL ADULTS</a>
+                     <a href="detail.html" class="link-products prod-two">APPAREL ADULTS</a>
                      <img src="../../img/pict6.png" alt="">
                   </li>
                </ul>
@@ -85,7 +86,7 @@
          </section>
       </main>
       <!-- подвал -->
-      <footer class="footer" style="margin-top: 50px;">
+      <footer class="footer" style="margin-top: 57px;">
          <div class="container foo">
             <div class="footer-block-wraper">
                <section class="footer-block">
@@ -120,22 +121,22 @@
                   <ul class="soc-footer">
                      <li>
                         <a href="#">
-                        <img src="../../img/facebook.png" alt="">
+                        <img class="icon" src="../../img/facebook.png" alt="facebook">
                         </a>
                      </li>
                      <li>
                         <a href="#">
-                        <img src="../../img/twitter.png" alt="">
+                        <img class="icon" src="../../img/twitter.png" alt="twitter">
                         </a>
                      </li>
                      <li>
                         <a href="#">
-                        <img src="../../img/pinterest.png" alt="">
+                        <img class="icon" src="../../img/pinterest.png" alt="pinterest">
                         </a>
                      </li>
                      <li>
                         <a href="#">
-                        <img src="../../img/instagram.png" alt="">
+                        <img class="icon" src="../../img/instagram.png" alt="instagram">
                         </a>
                      </li>
                   </ul>
@@ -143,18 +144,25 @@
             </div>
             <hr class="line-footer line-footer-bottom">
             <ul class="rat-wrap">
-               <li class="rat bottom-link" style="margin-left: 0;">
+               <li class="rat bottom-link star" style="margin-left: 0;">
                   Company Rating
-                  <a href="" class="star" style="margin-left: 31px;"><img src="../../img/stars.png" alt="star"></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt="star"></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt="star"></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt="star"></a>
-                  <a href="" class="star"><img src="../../img/stars.png" alt="star"></a>
+               <div class="rating-area">
+                  <input type="radio" id="star-5" name="rating" value="5">
+                  <label for="star-5" title="Оценка «5»"></label> 
+                  <input type="radio" id="star-4" name="rating" value="4">
+                  <label for="star-4" title="Оценка «4»"></label>    
+                  <input type="radio" id="star-3" name="rating" value="3">
+                  <label for="star-3" title="Оценка «3»"></label>  
+                  <input type="radio" id="star-2" name="rating" value="2">
+                  <label for="star-2" title="Оценка «2»"></label>    
+                  <input type="radio" id="star-1" name="rating" value="1">
+                  <label for="star-1" title="Оценка «1»"></label>
+               </div>
                </li>
-               <li class="rat bottom-link">
+               <li class="rat">
                   Copyright © 2018 Dlk • Design Life Kids
                </li>
-               <li class="rat bottom-link">
+               <li class="rat bottom-link web-rat">
                   Web Design — Direct Line Development
                </li>
             </ul>
