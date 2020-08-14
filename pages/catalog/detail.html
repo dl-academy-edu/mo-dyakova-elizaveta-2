@@ -49,8 +49,8 @@
                   <legend style="margin-bottom: -2px;">Cost</legend>
                   <div class="filter">
                      <label class="rang-min rang" for="start">0</label>
-                     <input type="range" min="0" max="100" value="20" name="range" step="1"/>
-                     <label class="rang-max rang" for="end">500</label>
+                     <input type="range" min="0" max="100" value="20" name="range" id="start" step="1"/>
+                     <label class="rang-max rang" for="start">500</label>
                   </div>
                </fieldset>
                <fieldset class="field-filter" style="padding-left: 38px;">
@@ -58,19 +58,19 @@
                   <div class="filter-item">
                      <div class="filter">
                         <input class="custom-check" id="black" type="checkbox">
-                        <label class="custom-lab" for="black">Black</label>
+                        <label class="custom-lab" for="black" title="Черный">Black</label>
                      </div>
                      <div class="filter">
                         <input class="custom-check" id="blue" type="checkbox">
-                        <label class="custom-lab" for="blue">Blue</label>
+                        <label class="custom-lab" for="blue" title="Голубой">Blue</label>
                      </div>
                      <div class="filter">
                         <input class="custom-check" id="green" type="checkbox">
-                        <label class="custom-lab" for="green">Green</label>
+                        <label class="custom-lab" for="green" title="Зеленый">Green</label>
                      </div>
                      <div class="filter">
                         <input class="custom-check" id="white" type="checkbox">
-                        <label class="custom-lab" for="white">White</label>
+                        <label class="custom-lab" for="white" title="Белый">White</label>
                      </div>
                   </div>
                </fieldset>
@@ -79,11 +79,11 @@
                   <div>
                      <div class="filter">
                         <input class="custom-radio" id="free" name="rd" type="radio">
-                        <label class="custom-lab" for="free">Free shipping</label>
+                        <label class="custom-lab" for="free" title="Бесплатная доставка">Free shipping</label>
                      </div>
                      <div class="filter">
                         <input class="custom-radio" id="fast" type="radio" name="rd">
-                        <label class="custom-lab" for="fast">Fast shipping</label>
+                        <label class="custom-lab" for="fast" title="Платная доставка">Fast shipping</label>
                      </div>
                   </div>
                </fieldset>
@@ -91,11 +91,11 @@
                   <legend>Amount</legend>
                   <div class="filter">
                      <input type="radio" name="pere" class="custom-pere" id="0-5">
-                     <label class="lab" for="0-5" style="padding: 0 25px;">0-5</label>
+                     <label class="lab" for="0-5" style="padding: 0 25px;" title="0-5">0-5</label>
                      <input type="radio" name="pere" class="custom-pere" id="10-20">
-                     <label class="lab" for="10-20">10-20</label>
+                     <label class="lab" for="10-20" title="10-20">10-20</label>
                      <input type="radio" name="pere" class="custom-pere" id="20-50">
-                     <label class="lab" for="20-50">20-50</label>                  
+                     <label class="lab" for="20-50" title="20-50">20-50</label>                  
                   </div>
                </fieldset>
                <input class="link link-form" type="submit" value="APPLY">
